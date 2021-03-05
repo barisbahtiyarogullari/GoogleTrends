@@ -13,7 +13,7 @@ public class SetUpAndTearDown {
 
     @Before
     public void setUp(Scenario scenario){
-        //DriverFactory.getDriver().manage().window().maximize();
+        DriverFactory.getDriver().manage().window().maximize();
     }
 
     @After
